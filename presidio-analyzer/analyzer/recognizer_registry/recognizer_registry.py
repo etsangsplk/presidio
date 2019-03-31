@@ -102,10 +102,6 @@ class RecognizerRegistry:
             "Returning a total of %d recognizers (predefined + custom)",
             len(to_return))
 
-        logging.info(
-            "Returning a total of %d recognizers (predefined + custom)",
-            len(to_return))
-
         if not to_return:
             raise ValueError(
                 "No matching recognizers were found to serve the request.")
